@@ -16,7 +16,7 @@ def acceptRequest():
     # here we have to forward the request to the desired destination and wait for a response
 
     print('returning response')
-    #here we need to absorb the request status, body, headers and send back
+    #here we need to absorb the response status, body, headers and send back to origin
 
     return 'success'
 
